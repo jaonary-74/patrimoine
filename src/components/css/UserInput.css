@@ -1,0 +1,18 @@
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group .form-control {
+    border-right: 0;
+  }
+  
+  .input-group-append {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group-text {
+    cursor: pointer;
+    border-left: 0;
+  }

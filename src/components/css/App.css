@@ -1,0 +1,98 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h2, h5 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .user-input {
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background: #f1f1f1;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .date-inputs input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .financial-checklist {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .output-display {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+  }
